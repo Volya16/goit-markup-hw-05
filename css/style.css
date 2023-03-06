@@ -83,6 +83,7 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
     padding: 24px 0;
+    transition: color var(--transition);
 }
 
 .header-link.current {
@@ -163,6 +164,7 @@ gap: 40px;
     cursor: pointer;
     width: 169px;
     height: 56px;
+    transition: background-color var(--transition), box-shadow var(--transition);
 }
 
 .button:hover,
@@ -328,6 +330,7 @@ gap: 40px;
     fill: #f4f4fd;
     background-color: var(--color-brand-light);
     border-radius: 50%;
+    transition: background-color var(--transition);
 }
 
 .socials-link:hover,
@@ -372,6 +375,7 @@ gap: 40px;
     height: 100%;
     border: 1px solid #8e8f99;
     border-radius: 4px;
+    transition: color var(--transition), box-shadow var(--transition);
 }
 
 .custormers-link:hover,
@@ -449,6 +453,7 @@ gap: 40px;
     fill: #f4f4fd;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+    transition: background-color var(--transition);
 }
 
 .footer-item {
@@ -550,6 +555,7 @@ gap: 40px;
     cursor: pointer;
     border: 1px solid #E7E9FC;
     padding: 12px 24px;
+    transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);
 }
 
 .filter-button:hover,
